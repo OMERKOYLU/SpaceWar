@@ -1,6 +1,6 @@
 import pygame
 from sprites import kukla
-print("ben aLoNeMaN")
+print("ben Alper")
 pygame.init()
 ekran = pygame.display.set_mode((800, 600))
 
