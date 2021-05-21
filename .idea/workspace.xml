@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82ec6cc4-0096-4643-8455-f7b84c16e5ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="82ec6cc4-0096-4643-8455-f7b84c16e5ea" name="Default Changelist" comment="aLoNeMaN">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +19,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -32,6 +35,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619805457573</updated>
+      <workItem from="1621597785695" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="merhaba yazdım">
       <created>1619805939601</created>
@@ -40,21 +44,34 @@
       <option name="project" value="LOCAL" />
       <updated>1619805939601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aLoNeMaN">
+      <created>1620401485808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620401485809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merhaba yazdım" />
-    <option name="LAST_COMMIT_MESSAGE" value="merhaba yazdım" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1619805934921">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1619805934921" />
-    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619805707913">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1619805707913" />
+    <MESSAGE value="aLoNeMaN" />
+    <option name="LAST_COMMIT_MESSAGE" value="aLoNeMaN" />
   </component>
 </project>
