@@ -6,7 +6,10 @@ ekran = pygame.display.set_mode((800, 600))
 
 devamet = True
 player = kukla("./images/spritesheet.png")
-
+x=400
+y=300
+ziplamaGucu=30
+yukseklik=y
 while devamet:
     pygame.time.Clock().tick(10)
     olaylar = pygame.event.get()
@@ -17,12 +20,19 @@ while devamet:
 
     if pygame.key.get_pressed()[pygame.K_RIGHT]:
         player.newYon=1
-        player.updateKukla(ekran, 400, 300, "kos")
+        x+=5
+        player.updateKukla(ekran, x, y, "kos")
     if pygame.key.get_pressed()[pygame.K_LEFT]:
         player.newYon=-1
-        player.updateKukla(ekran, 400, 300, "kos")
+        x-=5
+        player.updateKukla(ekran, x, y, "kos")
     if pygame.key.get_pressed()[pygame.K_SPACE]:
-        player.updateKukla(ekran, 400, 300, "zipla")
+        ziplamaGucu-=5
+        y-=5
+        if yukseklik<270:
+            ziplamaGucu=0
+            y+=5
+        player.updateKukla(ekran, x, y, "zipla")
     if not (True in pygame.key.get_pressed()):
-        player.updateKukla(ekran, 400, 300, "dur")
+        player.updateKukla(ekran, x, y, "dur")
     pygame.display.update()
