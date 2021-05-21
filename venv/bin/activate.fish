@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/ufuk/PycharmProjects/pygameSprite/venv"
+set -gx VIRTUAL_ENV "/home/ufuk/Documents/atolye/SpaceWar/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

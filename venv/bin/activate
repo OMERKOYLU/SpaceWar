@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/ufuk/PycharmProjects/pygameSprite/venv"
+VIRTUAL_ENV="/home/ufuk/Documents/atolye/SpaceWar/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
