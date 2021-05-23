@@ -1,7 +1,7 @@
 import pygame
 from sprites import kukla
-print("ben Alper")
-print("ben ALper")
+print("ben Bulut")
+print("ben Bulut")
 pygame.init()
 ekran = pygame.display.set_mode((800, 600))
 
@@ -30,11 +30,11 @@ while devamet:
     elif pygame.key.get_pressed()[pygame.K_SPACE]:
         if not havada:
             havada=True
-            ziplamaGucu = 5
+            ziplamaGucu = 14
     elif havada:
         y -= ziplamaGucu
         ziplamaGucu -= 1
-        if (ziplamaGucu == -5):
+        if (ziplamaGucu == -14):
             havada = False
         player.updateKukla(ekran, x, y, "zipla")
     else:
