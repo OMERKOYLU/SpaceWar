@@ -28,11 +28,13 @@ class kukla():
     yon=1
     ziplamaIndex=-1
     newYon=1
+    rect=pygame.Rect(0,0,0,0)
     def __init__(self,resim):
         self.resim=pygame.image.load(resim)
     def getImage(self,x,y,width,height):
         image=pygame.Surface((width,height))
         image.blit(self.resim,(0,0),(x,y,width,height))
+        self.rect=pygame.Rect(x,y,width,height)
         image.set_colorkey((0,0,0))
         return image
 
@@ -97,7 +99,7 @@ class kukla():
         self.ziplamaIndex += 1
         if self.ziplamaIndex > 2: self.ziplamaIndex = 0
         resxy = self.ziplama[self.ziplamaIndex]
-        return self.getImage(resxy[0], resxy[1], resxy[2], resxy[3])
+        # return self.getImage(resxy[0], resxy[1], resxy[2], resxy[3])
         if self.yon == 1:
             return self.getImage(resxy[0], resxy[1], resxy[2], resxy[3])
         if self.yon == -1:
