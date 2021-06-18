@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82ec6cc4-0096-4643-8455-f7b84c16e5ea" name="Default Changelist" comment="Zıplama Komutları Eklendi">
-      <change afterPath="$PROJECT_DIR$/bg.svg" afterDir="false" />
+    <list default="true" id="82ec6cc4-0096-4643-8455-f7b84c16e5ea" name="Default Changelist" comment="karakter kontrolleri ile ilgili hatalar düzeltildi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +12,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1rtptgbLtK6owcNsyP0qdVkVev9" />
   <component name="ProjectViewState">
@@ -92,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621608790487</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="karakter kontrolleri ile ilgili hatalar düzeltildi">
+      <created>1624012139887</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624012139887</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +118,7 @@
     <MESSAGE value="merhaba yazdım" />
     <MESSAGE value="aLoNeMaN" />
     <MESSAGE value="Zıplama Komutları Eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zıplama Komutları Eklendi" />
+    <MESSAGE value="karakter kontrolleri ile ilgili hatalar düzeltildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="karakter kontrolleri ile ilgili hatalar düzeltildi" />
   </component>
 </project>

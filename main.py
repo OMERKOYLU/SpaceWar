@@ -22,9 +22,9 @@ while devamet:
         if olay.type == pygame.QUIT:
             devamet = False
         if olay.type==pygame.KEYDOWN:
-            if olay.key==pygame.K_SPACE:
+            if olay.key==pygame.K_SPACE and not havada:
                 havada = True
-                ziplamaGucu = 20
+                ziplamaGucu = 40
                 player.updateKukla(ekran, x, y, "dur")
     ekran.fill((255, 255, 255))
     # ground=pygame.Rect(0, 150, 400, 300)
@@ -34,15 +34,15 @@ while devamet:
         player.newYon=1
         x+=5
         player.updateKukla(ekran, x, y, "kos")
-    elif pygame.key.get_pressed()[pygame.K_LEFT] and not havada:
+    if pygame.key.get_pressed()[pygame.K_LEFT] and not havada:
         player.newYon=-1
         x-=5
         player.updateKukla(ekran, x, y, "kos")
-    elif pygame.key.get_pressed()[pygame.K_SPACE] and not havada:
-        havada=True
-        ziplamaGucu = 20
-        player.updateKukla(ekran, x, y, "dur")
-    elif havada:
+    # if pygame.key.get_pressed()[pygame.K_SPACE] and not havada:
+    #     havada=True
+    #     ziplamaGucu = 20
+    #     player.updateKukla(ekran, x, y, "dur")
+    if havada:
         y -= ziplamaGucu
         if (y>ground.y): y=ground.y
         gravity+=1
@@ -57,16 +57,17 @@ while devamet:
             x-=10
         if pygame.key.get_pressed()[pygame.K_RIGHT]:
             x+=10
-    else:
+    # else:
         # gravity+=1
         # colRect=pygame.Rect(x,y,player.rect.width,player.rect.height)
         # if not colRect.colliderect(ground):
         #     y+=gravity
         #     gravity=3
-        print(ground.y,y)
-        if (y+40>ground.y):
-            y-=3
-            # havada=True
-        else: y+=3
+    if not 1 in pygame.key.get_pressed():
         player.updateKukla(ekran, x, y, "dur")
+    if (y+40>ground.y):
+        y-=5
+        # havada=True
+    else: y+=5
+
     pygame.display.update()
