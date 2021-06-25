@@ -1,10 +1,9 @@
 import pygame
 from sprites import kukla
-print("ben Alper")
-print("ben ALper")
+print("ben Bulut")
+print("ben Bulut")
 pygame.init()
 ekran = pygame.display.set_mode((400,300))
-
 devamet = True
 player = kukla("./images/spritesheet.png")
 x=200
@@ -15,6 +14,7 @@ yukseklik=y
 havada=True
 gravity=3
 bg=pygame.image.load("./images/bg.png")
+bg = pygame.transform.scale(bg, (1280, 300))
 while devamet:
     pygame.time.Clock().tick(10)
     olaylar = pygame.event.get()
@@ -29,7 +29,7 @@ while devamet:
     ekran.fill((255, 255, 255))
     # ground=pygame.Rect(0, 150, 400, 300)
     ground=pygame.draw.rect(ekran, (0, 0, 0),(0, 150, 400, 300))
-    # ekran.blit(bg,(0,0),(x,y,1200,300))
+    ekran.blit(bg,(0,0),(x,y,1200,300))
     if pygame.key.get_pressed()[pygame.K_RIGHT] and not havada:
         player.newYon=1
         x+=5
