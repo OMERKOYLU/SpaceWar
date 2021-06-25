@@ -27,8 +27,10 @@ while devamet:
                 ziplamaGucu = 40
                 player.updateKukla(ekran, x, y, "dur")
     ekran.fill((255, 255, 255))
+    bg=pygame.transform.scale(bg,(2000,300))
     # ground=pygame.Rect(0, 150, 400, 300)
     ground=pygame.draw.rect(ekran, (0, 0, 0),(0, 150, 400, 300))
+    ekran.blit(bg,(0,0))
     # ekran.blit(bg,(0,0),(x,y,1200,300))
     if pygame.key.get_pressed()[pygame.K_RIGHT] and not havada:
         player.newYon=1
