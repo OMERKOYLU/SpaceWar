@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82ec6cc4-0096-4643-8455-f7b84c16e5ea" name="Default Changelist" comment="karakter kontrolleri ile ilgili hatalar düzeltildi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="82ec6cc4-0096-4643-8455-f7b84c16e5ea" name="Default Changelist" comment="SELAM BEN BULUT" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624012139887</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SELAM BEN BULUT">
+      <created>1624630001246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624630001246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +124,7 @@
     <MESSAGE value="aLoNeMaN" />
     <MESSAGE value="Zıplama Komutları Eklendi" />
     <MESSAGE value="karakter kontrolleri ile ilgili hatalar düzeltildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="karakter kontrolleri ile ilgili hatalar düzeltildi" />
+    <MESSAGE value="SELAM BEN BULUT" />
+    <option name="LAST_COMMIT_MESSAGE" value="SELAM BEN BULUT" />
   </component>
 </project>
